@@ -26,5 +26,12 @@
             "Kdyby\\Extension\\Curl":""
         }
     },
-    "target-dir":"Kdyby/Extension/Curl"
+    "target-dir":"Kdyby/Extension/Curl",
+    "extra": {
+        "nette-addon": {
+            "config-extensions": {
+                "kdyby": "Kdyby\\Extension\\Curl\\DI\\CurlExtension"
+            }
+        }
+    }
 }
