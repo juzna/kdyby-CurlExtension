@@ -1,5 +1,6 @@
 {
     "name":"kdyby/curl-extension",
+    "type": "nette-addon",
     "description":"Curl wrapper for Nette Framework",
     "keywords":["nette", "curl", "http"],
     "homepage":"http://kdyby.org",
